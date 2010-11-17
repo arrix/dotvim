@@ -1,0 +1,12 @@
+[submodule "vim-update-bundles"]
+	path = vim-update-bundles
+	url = https://github.com/bronson/vim-update-bundles.git
+[submodule "bundle/nerdtree"]
+	path = bundle/nerdtree
+	url = git://github.com/scrooloose/nerdtree.git
+[submodule "bundle/command-t"]
+	path = bundle/command-t
+	url = git://git.wincent.com/command-t.git
+[submodule "bundle/rails"]
+	path = bundle/rails
+	url = https://github.com/tpope/vim-rails.git

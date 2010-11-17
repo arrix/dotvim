@@ -1,0 +1,10 @@
+*bundles.txt*                    Bundles                      Version 0.1
+
+These are the bundles installed on your system, along with their
+versions and release dates.  Downloaded on Wed Nov 17 15:40:31 +0800 2010.
+
+A version number of 'n/a' means upstream hasn't tagged any releases.
+  - |nerdtree|                     4.1.0-4-ge1abd4d       2010-09-18
+  - |command-t|                    1.0b                   2010-11-05
+  - |rails|                        v4.3-3-gdcae61e        2010-11-07
+
