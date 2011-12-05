@@ -1,5 +1,5 @@
-call pathogen#runtime_append_all_bundles()
-call pathogen#helptags()
+call pathogen#infect()
+syntax on
 
 " Bundle: git://github.com/scrooloose/nerdtree.git
 " BUNDLE: git://git.wincent.com/command-t.git
