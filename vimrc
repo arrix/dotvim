@@ -1,9 +1,11 @@
+runtime bundle/vim-pathogen/autoload/pathogen.vim
+" Bundle: tpope/vim-pathogen
 call pathogen#infect()
+
 syntax on
 
 " Bundle: git://github.com/scrooloose/nerdtree.git
 " BUNDLE: git://git.wincent.com/command-t.git
-" BUNDLE-COMMAND: rake make
 " Bundle: https://github.com/tpope/vim-rails.git
 
 
