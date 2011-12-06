@@ -5,7 +5,8 @@ call pathogen#infect()
 syntax on
 
 " Bundle: git://github.com/scrooloose/nerdtree.git
-" BUNDLE: git://git.wincent.com/command-t.git
+" Bundle: git://git.wincent.com/command-t.git
+" BundleCommand: cd command-t && rake make
 " Bundle: https://github.com/tpope/vim-rails.git
 
 
@@ -49,6 +50,7 @@ if has("autocmd")
   " Syntax of these languages is fussy over tabs Vs spaces
   autocmd FileType make setlocal ts=8 sts=8 sw=8 noexpandtab
   autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
+  autocmd FileType php setlocal ts=4 sts=4 sw=4 expandtab
  
   " Customisations based on house-style (arbitrary)
   autocmd FileType html setlocal ts=2 sts=2 sw=2 expandtab
